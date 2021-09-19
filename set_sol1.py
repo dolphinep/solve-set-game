@@ -1,4 +1,4 @@
-from set_algor import permutation_alg
+from set_algor import combinations_alg
 from piece_class import Piece
 
 def rule():
@@ -41,7 +41,7 @@ for i in range(pieces_num):
 
 print(">>> YOUR BOARD CONTAIN")
 for x in pieces: print(x.toString())
-result_list = permutation_alg.cal(pieces) 
+result_list = combinations_alg.cal(pieces) 
 if len(result_list) != 0:
     print("SOLUTION SET")
     for y in result_list: print(">>>>", y.toString())

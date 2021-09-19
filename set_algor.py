@@ -16,7 +16,7 @@ def normal_logic(list):
             return False
         return True
 
-class permutation_alg:  
+class combinations_alg:  
     def cal(pieces):
         perms = combinations(pieces, 3)
         for x in perms:

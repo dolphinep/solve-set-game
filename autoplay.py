@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from piece_class import Piece
-from set_algor import permutation_alg
+from set_algor import combinations_alg
 import time
 
 def get_shading(mask, fill):
@@ -55,7 +55,7 @@ while True:
         pieces_list.append(final_piece)
         index+=1
     
-    result_list = permutation_alg.cal(pieces_list)
+    result_list = combinations_alg.cal(pieces_list)
     if result_list is None:
         break
     if len(result_list) != 0:
