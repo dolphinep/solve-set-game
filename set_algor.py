@@ -22,6 +22,6 @@ class permutation_alg:
         for x in perms:
             # for y in x:
             #     print(y.toString())
-            print("----------------------")
+            # print("----------------------")
             if normal_logic(x):
                 return x

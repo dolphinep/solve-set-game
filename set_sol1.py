@@ -4,7 +4,7 @@ from piece_class import Piece
 def rule():
     print(">>> number = number of item (1, 2, 3)")
     print(">>> shape = 1:ovals  2:sprouts  3:diamonds")
-    print(">>> color = 1:green  2:yellow  3:pink")
+    print(">>> color = 1:green  2:yellow/red  3:pink/purple")
     print(">>> shading = 1:striped  2:outlined  3:filled")
     
     print("<<< Please input number on the following pattern  number:shape:color:shading ex. 1 2 1 3 >>>")
